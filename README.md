@@ -1,5 +1,5 @@
 # Milo-Parts
-This is a collection of parts that were designed for/on Mil
+This is a collection of parts that were designed for/on Milo
 
 ## Repo Contents:
 ### Milo/Mill related items
