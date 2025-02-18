@@ -1,6 +1,6 @@
-# CNC Machine Parts Collection
+# Milo Parts Collection
 
-This repository contains various CNC machine parts and accessories in STEP file format.
+This repository contains various Milo parts and and tooling in STEP file format.
 
 ## Vices, Components & Workholding
 
