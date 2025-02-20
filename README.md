@@ -22,6 +22,9 @@ The Angle Plates can be manufactured from 25x50x100mm stock material.
 
 The T-Nuts can be manufactured from 25x50x100mm stock material (or smaller), there is a supplemental workholding fixture in the STEP file.
 
+See [Bill of Materials](BOM.md) for detailed material requirements and quantities.
+
+
 ## Tooling & Cutting Tools
 
 - [Tooling](tools/.tools) - Tooling Library Based off the tools from the LDO kit as well as some additional tools.
