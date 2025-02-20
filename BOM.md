@@ -19,6 +19,14 @@
   - [Inception Vice Angle Plate](Vices/Angle%20Vice%20Plate/Vice%20Angle%20Plate%20v6.step)
   - [SMW Vice Angle Plate](Vices/Angle%20Vice%20Plate/Vice%20Angle%20Plate%20v5.step)
 
+### Vice Collection
+- Quantity: 1 set
+- Stock Material: 
+  - 25x50x100mm
+  - 50x150x25mm for larger components
+- Note: Complete collection of vice bases and vice faces
+- Location: [Vice Collection](Vices/Vice%20Collection.step)
+
 ### T-Nuts
 - Quantity: As needed
 - Stock Material: 25x50x100mm (or smaller)
