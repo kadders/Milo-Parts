@@ -2,7 +2,7 @@
 
 ## Tool Changes and Operations
 
-### Tool 9 - 3 Flute DLC (3mm)
+### Tool 9 - 3 Flute DLC (6mm)
 - **RPM**: 15,000
 - **Feed Rate**: 2,000 mm/min
 - **Operation**: Adaptive clearing
