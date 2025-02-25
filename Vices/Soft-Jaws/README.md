@@ -10,16 +10,16 @@
 - **Variable Spindle Speed Control**: Enabled (P4000 V200)
 
 ### Tool 3 - Single Flute (12mm)
-- **RPM**: 15,000
-- **Feed Rate**: 2,000 mm/min
+- **RPM**: 20,000
+- **Feed Rate**: 1,000 mm/min
 - **Operation**: Adaptive clearing
 - **Coolant**: Mist (M7)
 - **Variable Spindle Speed Control**: Enabled (P4000 V200)
 
 ### Tool 2 - Double Flute 17mm Ball
-- **RPM**: 15,000
-- **Feed Rate**: 2,000 mm/min
-- **Operation**: Adaptive clearing
+- **RPM**: 20,000
+- **Feed Rate**: 960 mm/min
+- **Operation**: Scallop
 - **Coolant**: Mist (M7)
 - **Variable Spindle Speed Control**: Enabled (P4000 V200)
 
