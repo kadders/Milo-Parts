@@ -23,7 +23,7 @@
 - **Coolant**: Mist (M7)
 - **Variable Spindle Speed Control**: Enabled (P4000 V200)
 
-### Tool 6 - Chamfer Mill (3mm)
+### Tool 6 - Chamfer Mill (6mm)
 - **RPM**: 20,000  
 - **Feed Rate**: 2,000 mm/min
 - **Operation**: 2D Chamfer
