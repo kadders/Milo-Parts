@@ -2,12 +2,11 @@
 
 This directory contains various vice components and their respective STEP files for reference and use.
 
-## Available Vices
-
-- [Angle Vice Plate](Angle%20Vice%20Plate/Vice%20Angle%20Plate.step) - A plate designed for setting up angles on the vices.
-- [Soft Jaws](Soft-Jaws/Soft%20Jaws.step) - Protective soft jaws for workholding.
-- [Jaw Face](jaw-faces/Jaw%20Face.step) - Replacement face inserts for vise jaws.
-- [Vice Collection](Vice%20Collection.step) - A complete collection of vice bases and vice jaws (both small and large) as well as a few other components.
+## Available Vice Parts
+- [Angle Vice Plate](Angle%20Vice%20Plate/) - A plate designed for setting up angles on the vices.
+- [Soft Jaws](Soft-Jaws/) - Protective soft jaws for workholding.
+- [Jaw Face](jaw-faces/) - Replacement face inserts for vise jaws.
+- [Vice Collection](vice-collection/) - A complete collection of vice bases and vice jaws (both small and large) as well as a few other components.
 
 ## Additional Documentation
 
