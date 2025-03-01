@@ -44,7 +44,7 @@ The Vice Collection includes a complete set of vice bases and vice jaws (both sm
 - Remove chips and debris after each use
 
 ## Machining Resources
-For detailed information on machining operations related to the vice components, refer to the [Machining Resources](Machining%20Resources.md) document.
+Machining resources for the vice collection is currently in the works and will be added soon.
 
 ## Additional Resources
 For further information on other vice components, please refer to the [Vices Documentation](../README.md).
