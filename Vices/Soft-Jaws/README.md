@@ -1,119 +1,36 @@
-# Vice Jaw Operation 1 Overview
+# Soft Jaws Documentation
 
-## Tool Changes and Operations
+## Overview
+The Soft Jaws are designed to provide gentle but secure workholding for delicate or finished parts. They protect workpieces from marring or damage that might occur with standard metal jaws, while still maintaining precision during machining operations.
 
-### Tool 9 - 3 Flute DLC (6mm)
-- **RPM**: 15,000
-- **Feed Rate**: 2,000 mm/min
-- **Operation**: Adaptive clearing
-- **Coolant**: Mist (M7)
-- **Variable Spindle Speed Control**: Enabled (P4000 V200)
+## Material Requirements
+- **Quantity**: 2 pieces (1 pair)
+- **Stock Material**: Aluminum 6061-T6 (recommended for durability and precision)
+- **Fasteners**: 
+  - 2x M10x30mm Counter-Sunk Screws (for mounting to vice, per jaw)
 
-### Tool 3 - Single Flute (12mm)
-- **RPM**: 20,000
-- **Feed Rate**: 1,000 mm/min
-- **Operation**: Adaptive clearing
-- **Coolant**: Mist (M7)
-- **Variable Spindle Speed Control**: Enabled (P4000 V200)
+## Features
+- Non-marring surface for delicate workpieces
+- Custom profiles can be machined into the jaws for specific part geometries
+- Compatible with the [Vice Collection](../vice-collection/) vices
+- Replaceable design for when jaws become worn or damaged
 
-### Tool 2 - Double Flute 17mm Ball
-- **RPM**: 20,000
-- **Feed Rate**: 960 mm/min
-- **Operation**: Scallop
-- **Coolant**: Mist (M7)
-- **Variable Spindle Speed Control**: Enabled (P4000 V200)
+## Installation Instructions
+1. Remove the existing jaw faces from the vise.
+2. Align the soft jaws with the mounting holes on the vice.
+3. Secure using the M10x30mm Counter-Sunk Screws.
+4. Ensure the jaws are properly seated and tightened before use.
 
-### Tool 6 - Chamfer Mill (6mm)
-- **RPM**: 20,000  
-- **Feed Rate**: 2,000 mm/min
-- **Operation**: 2D Chamfer
-- **Coolant**: Mist (M7)
-- **Variable Spindle Speed Control**: Enabled (P4000 V200)
+## Customization
+The soft jaws can be machined to create custom profiles for specific workpieces:
+- Use the machining resources provided in [Machining Resources.md](Machining%20Resources.md) for tooling and machining steps that worked well for the soft jaws.
+- Follow the recommended toolpaths and settings for optimal results
+- Consider creating multiple sets of soft jaws for different workpiece geometries
 
-## Process Overview
-1. Initial setup and probing
-   - Probes reference surface
-   - Uses WCS 1 (G54)
-   - Probes origin in current WCS
-   - Enables rotation compensation
+## Maintenance
+- Regularly inspect the soft jaws for wear, damage, or embedded chips
+- Clean the jaw surfaces after each use to prevent material buildup
+- Replace when worn or damaged to maintain precision in workholding
 
-2. Main Adaptive Operation (Tool 9)
-   - Multiple adaptive clearing passes
-   - Complex contour following
-   - Multiple Z-level operations
-
-3. Secondary Adaptive Operations (Tool 3 & Tool 2)
-   - Additional adaptive clearing passes
-   - Complex contour following
-   - Multiple Z-level operations
-
-4. Chamfer Operation (Tool 6)
-   - 2D chamfering around the perimeter
-   - Single pass at -3mm depth
-
-## Safety Features
-- Firmware version check (v0.5.0-rc1)
-- Tool details passed to firmware
-- Spindle acceleration monitoring
-- Variable speed control for vibration reduction
-- Coolant control
-- Automatic parking between operations
-
-## Notes
-- File includes extensive safety checks and spindle controls
-- Uses RRF firmware-specific features
-- Includes automatic probing and work coordinate system management
-- Multiple parking and tool change operations
-- Comprehensive coolant and spindle speed management
-
-# Vice Jaw Operation 2 Overview
-
-## Tool Changes and Operations
-
-### Tool 1 - 3 Flute DLC (3mm)
-- **RPM**: 15,000
-- **Feed Rate**: 2,000 mm/min
-- **Operation**: Adaptive clearing
-- **Coolant**: Mist (M7)
-- **Variable Spindle Speed Control**: Enabled (P4000 V200)
-
-### Tool 6 - Chamfer Mill (3mm)
-- **RPM**: 20,000
-- **Feed Rate**: 2,000 mm/min
-- **Plunge Feed**: 333.3 mm/min
-- **Operation**: 2D Chamfer
-- **Coolant**: Mist (M7)
-- **Variable Spindle Speed Control**: Enabled (P4000 V200)
-
-## Process Overview
-1. Initial setup and probing
-   - Probes reference surface
-   - Uses WCS 1 (G54)
-   - Probes origin in current WCS
-   - Enables rotation compensation
-
-2. Main Adaptive Operation (Tool 1)
-   - Multiple adaptive clearing passes
-   - Complex contour following
-   - Multiple Z-level operations at -3.9mm, -8.4mm, -17.7mm depths
-
-3. Chamfer Operation (Tool 6)
-   - 2D chamfering around the perimeter
-   - Single pass at -10.449mm depth
-   - Includes both external and internal feature chamfering
-
-## Safety Features
-- Firmware version check (v0.5.0-rc1)
-- Tool details passed to firmware
-- Spindle acceleration monitoring
-- Variable speed control for vibration reduction
-- Coolant control
-- Automatic parking between operations
-
-## Notes
-- Operation 2 focuses on the opposite side of the vice jaw
-- Includes deeper cutting operations than Operation 1
-- Multiple Z-level passes for material removal
-- Comprehensive safety checks and spindle controls
-- Uses RRF firmware-specific features
-- Includes automatic probing and work coordinate system management
+## Additional Resources
+For further information on other vice parts, please refer to the [Vices Documentation](../README.md).
