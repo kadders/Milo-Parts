@@ -1,6 +1,6 @@
 # Vice Collection Documentation
 
-![Vice Collection CAD Model](vice-collection-cad.jpg)
+![Vice Collection CAD Model](images/vice-collection-cad.jpg)
 
 ## Overview
 The Vice Collection includes a complete set of vice bases and vice jaws (both small and large) designed for precision workholding in machining operations. These components provide reliable clamping force while maintaining accuracy for various machining tasks.
