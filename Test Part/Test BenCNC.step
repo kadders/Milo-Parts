@@ -9,12 +9,12 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'Test BenCNC v1.step',
-/* time_stamp */ '2025-11-01T11:50:15-07:00',
+/* name */ 'Test BenCNC.step',
+/* time_stamp */ '2026-03-13T08:42:52-07:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.1',
-/* originating_system */ 'Autodesk Translation Framework v14.17.0.0',
+/* originating_system */ 'Autodesk Translation Framework v14.24.0.0',
 /* authorisation */ '');
 
 FILE_SCHEMA (('AUTOMOTIVE_DESIGN { 1 0 10303 214 3 1 1 }'));
@@ -623,16 +623,16 @@ SOLID_ANGLE_UNIT()
 #571=PRODUCT_DEFINITION_SHAPE('',$,#574);
 #572=SHAPE_REPRESENTATION('',(#350),#564);
 #573=PRODUCT_DEFINITION_CONTEXT('part definition',#578,'design');
-#574=PRODUCT_DEFINITION('Test BenCNC','Test BenCNC v1',#575,#573);
+#574=PRODUCT_DEFINITION('Test BenCNC','Test BenCNC v6',#575,#573);
 #575=PRODUCT_DEFINITION_FORMATION('',$,#580);
-#576=PRODUCT_RELATED_PRODUCT_CATEGORY('Test BenCNC v1','Test BenCNC v1',
+#576=PRODUCT_RELATED_PRODUCT_CATEGORY('Test BenCNC v6','Test BenCNC v6',
 (#580));
 #577=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#578);
 #578=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #579=PRODUCT_CONTEXT('part definition',#578,'mechanical');
-#580=PRODUCT('Test BenCNC','Test BenCNC v1',$,(#579));
+#580=PRODUCT('Test BenCNC','Test BenCNC v6',$,(#579));
 #581=PRESENTATION_STYLE_ASSIGNMENT((#582));
 #582=SURFACE_STYLE_USAGE(.BOTH.,#583);
 #583=SURFACE_SIDE_STYLE('',(#584));

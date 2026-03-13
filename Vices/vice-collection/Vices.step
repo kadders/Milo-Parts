@@ -12,7 +12,7 @@ cturing Information (PMI)---4.0---2014-10-13'),
 
 FILE_NAME(
 /* name */ 'Vices.step',
-/* time_stamp */ '2025-03-04T20:50:03-08:00',
+/* time_stamp */ '2025-03-09T10:26:25-07:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20',
@@ -12546,7 +12546,7 @@ SOLID_ANGLE_UNIT()
 #12129=SHAPE_REPRESENTATION('',(#7723),#12092);
 #12130=SHAPE_REPRESENTATION('',(#7818),#12093);
 #12131=PRODUCT_DEFINITION_CONTEXT('part definition',#12157,'design');
-#12132=PRODUCT_DEFINITION('Vice','Vice v56',#12140,#12131);
+#12132=PRODUCT_DEFINITION('Vice','Vice v57',#12140,#12131);
 #12133=PRODUCT_DEFINITION('SlidingBase','SlidingBase',#12141,#12131);
 #12134=PRODUCT_DEFINITION('Jaw','Jaw',#12142,#12131);
 #12135=PRODUCT_DEFINITION('Soft Jaw','Soft Jaw',#12143,#12131);
@@ -12565,7 +12565,7 @@ SOLID_ANGLE_UNIT()
 #12145=PRODUCT_DEFINITION_FORMATION('',$,#12164);
 #12146=PRODUCT_DEFINITION_FORMATION('',$,#12165);
 #12147=PRODUCT_DEFINITION_FORMATION('',$,#12166);
-#12148=PRODUCT_RELATED_PRODUCT_CATEGORY('Vice v56','Vice v56',(#12159));
+#12148=PRODUCT_RELATED_PRODUCT_CATEGORY('Vice v57','Vice v57',(#12159));
 #12149=PRODUCT_RELATED_PRODUCT_CATEGORY('SlidingBase','SlidingBase',(#12160));
 #12150=PRODUCT_RELATED_PRODUCT_CATEGORY('Jaw','Jaw',(#12161));
 #12151=PRODUCT_RELATED_PRODUCT_CATEGORY('Soft Jaw','Soft Jaw',(#12162));
@@ -12580,7 +12580,7 @@ SOLID_ANGLE_UNIT()
 'ap242_managed_model_based_3d_engineering',2011,#12157);
 #12157=APPLICATION_CONTEXT('Managed model based 3d engineering');
 #12158=PRODUCT_CONTEXT('part definition',#12157,'mechanical');
-#12159=PRODUCT('Vice','Vice v56',$,(#12158));
+#12159=PRODUCT('Vice','Vice v57',$,(#12158));
 #12160=PRODUCT('SlidingBase','SlidingBase',$,(#12158));
 #12161=PRODUCT('Jaw','Jaw',$,(#12158));
 #12162=PRODUCT('Soft Jaw','Soft Jaw',$,(#12158));
